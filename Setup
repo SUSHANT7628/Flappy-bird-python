@@ -1,9 +1,12 @@
 # Setup
 Open Terminal and write the command:
-pip install pygame
+pip install pygame 
+
 After that type python in the terminal and write the command:
 import pygame
+
 Now you can copy the code of the game and paste in 
 your text editor and run the code.
+
 Now, you will be able to play the game
 
