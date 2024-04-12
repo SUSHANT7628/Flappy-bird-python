@@ -54,9 +54,9 @@ def game_over():
     screen.blit(score_text, (SCREEN_WIDTH//2 - score_text.get_width()//2, SCREEN_HEIGHT//2 + 50))
     
     # Restart button
-    pygame.draw.rect(screen, GREEN, (150, 400, 100, 50))
-    restart_text = font.render("Restart", True, WHITE)
-    screen.blit(restart_text, (170, 415))
+    pygame.draw.rect(screen, WHITE, (150, 400, 100, 50))
+    restart_text = font.render("Restart", True, BLACK)
+    screen.blit(restart_text, (120, 415))
     
     pygame.display.flip()
     
